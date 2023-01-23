@@ -13,7 +13,7 @@ resource "aws_security_group" "elb-sg-bean" {
     cidr_blocks = [ "0.0.0.0/0" ]
     description = "inbound rules"
     from_port = 80
-    protocol = "tcp"e
+    protocol = "tcp"
     to_port = 80
   } ]
 }
